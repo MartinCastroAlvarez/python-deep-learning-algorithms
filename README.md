@@ -1,5 +1,5 @@
 # Amsterdam
-Combinatorics implemented with `numpy` and `scipy`.
+Combinatorics implemented with `numpy`, `matplotlib` &  `scipy`.
 
 ![amsterdam](/wallpaper.jpg)
 
