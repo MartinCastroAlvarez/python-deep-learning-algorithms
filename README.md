@@ -4,7 +4,11 @@ Combinatorics implemented with `numpy`, `matplotlib` &  `scipy`.
 ![amsterdam](/wallpaper.jpg)
 
 ## References 
-- [numpy](https://numpy.org/doc/stable/user/quickstart.html)
-- [numpy](https://www.pluralsight.com/guides/different-ways-create-numpy-arrays)
+- [Combinatorics, a problem-based approach by Pavle Mladenović](https://www.springer.com/gp/book/9783030008307)
+- [numpy](https://numpy.org/)
 - [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 - [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
+
+## Jupyter Notebook
+Click [here](./amsterdam.ipynb) to view the notebook.
+
