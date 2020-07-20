@@ -9,6 +9,7 @@ Combinatorics implemented with `numpy`, `matplotlib` &  `scipy`.
 - [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 - [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 
-## Jupyter Notebook
-Click [here](./amsterdam.ipynb) to view the notebook.
+## Jupyter Notebooks
+- [Combinatorics](./combinatorics.ipynb)
+
 
