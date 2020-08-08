@@ -1,5 +1,5 @@
 # Amsterdam
-Math in general implemented with `numpy`, `matplotlib` &  `scipy`.
+Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
 
 ![amsterdam](/wallpaper.jpg)
 
@@ -11,5 +11,6 @@ Math in general implemented with `numpy`, `matplotlib` &  `scipy`.
 
 ## Jupyter Notebooks
 - [Combinatorics](./combinatorics.ipynb)
+- [Distributions](./distributions.ipynb)
 
 
