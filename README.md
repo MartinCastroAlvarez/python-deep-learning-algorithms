@@ -12,5 +12,4 @@ Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
 ## Jupyter Notebooks
 - [Combinatorics](./combinatorics.ipynb)
 - [Distributions](./distributions.ipynb)
-
-
+- [Statistics](./statistics.ipynb)
