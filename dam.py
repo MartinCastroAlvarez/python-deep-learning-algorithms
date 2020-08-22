@@ -99,6 +99,40 @@ def get_one_hot(tokens: list, word2id: dict) -> np.array:
     return one_hot_vector
 
 
+def generate_training_data(corpus,window_size,vocab_size,word_to_index,length_of_corpus,sample=None):
+    training_data =  []
+    training_sample_words =  []
+    for i,word in enumerate(corpus):
+        index_target_word = i
+        target_word = word
+        context_words = []
+        #when target word is the first word
+        if i == 0:
+            # trgt_word_index:(0), ctxt_word_index:(1,2)
+            context_words = [corpus[x] for x in range(i + 1 , window_size + 1)]
+        #when target word is the last word
+        elif i == len(corpus)-1:
+            # trgt_word_index:(9), ctxt_word_index:(8,7), length_of_corpus = 10
+            context_words = [corpus[x] for x in range(length_of_corpus - 2 ,length_of_corpus -2 - window_size  , -1 )]
+        #When target word is the middle word
+        else:
+            #Before the middle target word
+            before_target_word_index = index_target_word - 1
+            for x in range(before_target_word_index, before_target_word_index - window_size , -1):
+                if x >=0:
+                    context_words.extend([corpus[x]])
+            #After the middle target word
+            after_target_word_index = index_target_word + 1
+            for x in range(after_target_word_index, after_target_word_index + window_size):
+                if x < len(corpus):
+                    context_words.extend([corpus[x]])
+        trgt_word_vector,ctxt_word_vector = get_one_hot_vectors(target_word,context_words,vocab_size,word_to_index)
+        training_data.append([trgt_word_vector,ctxt_word_vector])
+        if sample is not None:
+            training_sample_words.append([target_word,context_words])
+    return training_data,training_sample_words
+
+
 document: str = get_document('Dragon Ball')
 tokens: list = get_tokens(document)
 word2id, id2word = get_index(tokens)
@@ -110,6 +144,8 @@ print("ID2WORD", "\n", str(id2word)[:100])
 print("VOCAB", vocab_size)
 print("CORPUS", corpus_size)
 assert np.sum(get_one_hot(['goku', 'vegeta'], word2id)) == 2
+x = generate_training_data(corpus_size,3,vocab_size,word2id,corpus_size,sample=10):
+print(x)
 import sys; sys.exit(1)
 
 text: str = "Best way to success is through hard work and persistence"
