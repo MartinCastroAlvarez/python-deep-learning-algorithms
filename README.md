@@ -13,3 +13,4 @@ Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
 - [Combinatorics](./combinatorics.ipynb)
 - [Distributions](./distributions.ipynb)
 - [Statistics](./statistics.ipynb)
+- [Sequences](./sequences.ipynb)
