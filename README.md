@@ -14,3 +14,4 @@ Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
 - [Distributions](./distributions.ipynb)
 - [Statistics](./statistics.ipynb)
 - [Sequences](./sequences.ipynb)
+- [Matching](./matching.ipynb)
