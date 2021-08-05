@@ -11,9 +11,11 @@ Machine Learning implemented with `numpy`, `pandas`, `matplotlib`, `keras`, `sci
 - [Matching](./matching.ipynb)
 
 ## Math & Statistics
-- [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
-- [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 - [Combinatorics](./combinatorics.ipynb)
 - [Distributions](./distributions.ipynb)
 - [Statistics](./statistics.ipynb)
 - [Sequences](./sequences.ipynb)
+
+## Other References
+- [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+- [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
