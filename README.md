@@ -9,9 +9,15 @@ Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
 - [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 - [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 
-## Jupyter Notebooks
+## Deep Learning
+- [Condorcet Jury Theorem](./condorcetjury.ipynb)
+- [Memory Based Recommender Systems](./memorybased.ipynb)
+- [Dimensionality Reduction](./dimensionreduction.ipynb)
+- [Content Based Recommender Systems](./contentbased.ipynb)
+- [Matching](./matching.ipynb)
+
+## Math & Statistics
 - [Combinatorics](./combinatorics.ipynb)
 - [Distributions](./distributions.ipynb)
 - [Statistics](./statistics.ipynb)
 - [Sequences](./sequences.ipynb)
-- [Matching](./matching.ipynb)
