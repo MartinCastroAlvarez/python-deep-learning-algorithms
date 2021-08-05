@@ -1,13 +1,7 @@
 # Amsterdam
-Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
+Machine Learning implemented with `numpy`, `pandas`, `matplotlib`, `keras`, `scipy`, `scipy.stats`, etc.
 
 ![amsterdam](/wallpaper.jpg)
-
-## References 
-- [Combinatorics, a problem-based approach by Pavle Mladenović](https://www.springer.com/gp/book/9783030008307)
-- [numpy](https://numpy.org/)
-- [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
-- [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 
 ## Deep Learning
 - [Condorcet Jury Theorem](./condorcetjury.ipynb)
@@ -17,6 +11,8 @@ Math in general implemented with `numpy`, `matplotlib`, `scipy` & `scipy.stats`.
 - [Matching](./matching.ipynb)
 
 ## Math & Statistics
+- [Math Markup](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+- [Math Markup](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 - [Combinatorics](./combinatorics.ipynb)
 - [Distributions](./distributions.ipynb)
 - [Statistics](./statistics.ipynb)
