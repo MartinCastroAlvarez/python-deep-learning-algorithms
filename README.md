@@ -9,6 +9,7 @@ Machine Learning implemented with `numpy`, `pandas`, `matplotlib`, `keras`, `sci
 - [Dimensionality Reduction](./dimensionreduction.ipynb)
 - [Content Based Recommender Systems](./contentbased.ipynb)
 - [Matching](./matching.ipynb)
+- [Link Prediction](./linkprediction.ipynb)
 
 ## Math & Statistics
 - [Combinatorics](./combinatorics.ipynb)
