@@ -4,10 +4,6 @@ Machine Learning implemented with `numpy`, `pandas`, `matplotlib`, `keras`, `sci
 ![amsterdam](/wallpaper.jpg)
 
 ## Deep Learning
-- [Condorcet Jury Theorem](./condorcetjury.ipynb)
-- [Memory Based Recommender Systems](./memorybased.ipynb)
-- [Dimensionality Reduction](./dimensionreduction.ipynb)
-- [Content Based Recommender Systems](./contentbased.ipynb)
 - [Matching](./matching.ipynb)
 - [Portfolio Similarity](./portfolio.ipynb)
 - [Link Prediction](./linkprediction.ipynb)
