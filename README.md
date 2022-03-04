@@ -7,8 +7,9 @@ Machine Learning implemented with `numpy`, `pandas`, `matplotlib`, `keras`, `sci
 - [Matching](./matching.ipynb)
 - [Portfolio Similarity](./portfolio.ipynb)
 - [Link Prediction](./linkprediction.ipynb)
+- [Graph](./graph.ipynb)
 
-## Jupyter Notebooks
+## Recommender Systems
 - [Condorcet Jury Theorem](./condorcetjury.ipynb)
 - [Memory Based Recommender Systems](./memorybased.ipynb)
 - [Dimensionality Reduction](./dimensionreduction.ipynb)
