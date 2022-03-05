@@ -76,3 +76,4 @@ webencodings==0.5.1
 widgetsnbextension==3.5.1
 wikipedia==1.4.0
 zipp==3.1.0
+tabulate==0.8.9
