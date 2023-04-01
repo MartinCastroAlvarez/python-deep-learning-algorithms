@@ -13,7 +13,8 @@ Machine Learning implemented with `numpy`, `pandas`, `matplotlib`, `keras`, `sci
 - [Condorcet Jury Theorem](./condorcetjury.ipynb)
 - [Memory Based Recommender Systems](./memorybased.ipynb)
 - [Dimensionality Reduction](./dimensionreduction.ipynb)
-- [Content Based Recommender Systems](./contentbased.ipynb) [Graph Algorithm](./graph.ipynb)
+- [Content Based Recommender Systems](./contentbased.ipynb)
+- [Graph Algorithm](./graph.ipynb)
 
 ## Math & Statistics
 - [Combinatorics](./combinatorics.ipynb)
